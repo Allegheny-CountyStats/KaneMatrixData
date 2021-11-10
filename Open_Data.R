@@ -39,7 +39,7 @@ first_date <- as.Date("2019-09-17")
 last_day <- as.Date("2021-11-08")
 # make the list of all dates between first date and last date just made. 
 dates <- seq.Date(first_date, last_day, by ="day")
-# build the data frame 
+# build the data frame
 daily_pop <- data.frame()
 # set up the rows. each date is in each row. for each date, do the following:
 for (date in dates) {
