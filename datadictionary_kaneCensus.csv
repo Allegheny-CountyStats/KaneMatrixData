@@ -1,0 +1,7 @@
+field_name,label,description
+facility,Facility,"Facility code: 1=Glen Hazel, 2=Scott, 3=McKeesport, 4=Ross"
+run_date,Run date,Date report was run. Only runs on business days.
+gender_race_group,Gender-race group,Concatenated gender and race combination.
+patient_count,Patient count,Patient census.
+gender,Gender,"F=female, M=male"
+race,Race,"A=Asian, B=Black, H=Hispanic, W=White"
