@@ -34,9 +34,9 @@ write.csv(COMB,
 dem_cols <- c("Race", "Sex", "Facility")
 # define the first date in the date list we want to include in the output. 
 #To continue with the existing data, hard coded with a specific date
-first_date <- as.Date("2019-09-17")
+first_date <- as.Date("2020-02-01")
 # define the last date in the date list we want to include in the output. As downloaded as of 11/8, hard code it.
-last_day <- as.Date("2021-11-08")
+last_day <- as.Date("2021-12-01")
 # make the list of all dates between first date and last date just made. 
 dates <- seq.Date(first_date, last_day, by ="day")
 # build the data frame
@@ -66,5 +66,5 @@ for (date in dates) {
   # print(paste(date, "complete"))
 }
 # save the output
-write.csv(daily_pop, "K:/CountyStats/Departments/Kane Regional Centers/MatrixCare Data/Daily_Pop.csv",
+write.csv(daily_pop, "K:/CountyStats/Departments/Kane Regional Centers/MatrixCare Data/Daily_Pop_2_1_2020.csv",
           row.names = F)
